@@ -21,7 +21,7 @@ as-slice = "0.2"
 cortex-m = "0.7.4"
 cortex-m-rt = ">=0.6.15, <0.8"
 nb = "1.0"
-stm32f7 = "0.15"
+stm32f7 = { version = "0.15", default-features = false }
 micromath = "2.0"
 synopsys-usb-otg = { version = "0.3", features = ["cortex-m"], optional = true }
 stm32-fmc = { version = "0.3", features = ["sdram"], optional = true }
